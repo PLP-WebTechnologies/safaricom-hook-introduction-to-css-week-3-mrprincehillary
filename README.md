@@ -1,4 +1,4 @@
-## **🎓 CSS Basics Assignment**  
+## **🎓 CSS Basics Assignment**  ** With its Output **
 
 ### **Assignment Title**  
 **"Mastering CSS Basics: Styling Your First Web Page"**  
@@ -48,3 +48,7 @@
 ```
 
 This assignment will solidify your CSS basics while giving you a chance to style your first webpage creatively. Good luck and happy styling! 🎨🚀
+
+# Output
+![image](https://github.com/user-attachments/assets/116e3577-4e89-4601-b793-ca3879bb9912)
+
