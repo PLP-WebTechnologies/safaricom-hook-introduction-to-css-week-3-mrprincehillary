@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+    <style>
+        /* Internal CSS */
+        body {
+            background-color: #e8f0fe; /* Light blue background */
+            font-family: 'Arial', sans-serif; /* Font family */
+            color: #333; /* Dark text color */
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            font-weight: bold;
+            color: #2c3e50; /* Dark blue for headings */
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #555; /* Gray text */
+            text-align: justify; /* Justify text */
+            margin: 10px 0; /* Vertical spacing */
+        }
+
+        .highlight {
+            background-color: lightblue;
+            padding: 10px;
+            border-radius: 5px; /* Rounded corners */
+        }
+
+        #unique {
+            border: 2px solid darkblue;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #f9f9f9; /* Light background */
+        }
+
+        .card {
+            background-color: #ffffff; /* White card background */
+            border: 1px solid #ddd; /* Subtle border */
+            border-radius: 8px; /* Rounded corners */
+            padding: 20px; /* Inner padding */
+            margin: 20px auto; /* Centered margin */
+            max-width: 300px; /* Max width for card */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        .card h2 {
+            font-size: 1.5em; /* Card title size */
+            color: #2980b9; /* Card title color */
+            text-align: center; /* Center-align title */
+            margin-bottom: 10px; /* Space below title */
+        }
+
+        .card p {
+            text-align: left; /* Left-align description */
+            color: #666; /* Lighter gray for description */
+        }
+
+        a.link {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a.link:hover {
+            color: red; /* Change text color on hover */
+            text-decoration: underline; /* Underline on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to CSS Basics</h1>
+    <p style="color: green;">This paragraph has inline CSS to change the text color to green.</p> <!-- Inline CSS -->
+
+    <div class="highlight">
+    <h2>Welcome to CSS Basics</h2>
+        <p>This section has a highlighted background color using a class selector.</p>
+    </div>
+
+    <div id="unique">
+        <p>This section has a unique border using an ID selector.</p>
+    </div>
+
+    <a href="#" class="link">Hover over this link</a>
+
+    <!-- Simple Card Component -->
+    <div class="card">
+        <h2>Card Title</h2>
+        <p>This is a simple card component. It contains a title and a description. Use it to display additional information in a visually appealing manner.</p>
+    </div>
+
+</body>
+</html>
