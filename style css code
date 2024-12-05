@@ -1,0 +1,76 @@
+# external style for my site
+/* External CSS */
+
+/* General body styles */
+body {
+    background-color: #f4f4f9; /* Soft light gray background */
+    font-family: 'Arial', sans-serif; /* Font family */
+    color: #333; /* Dark text color */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add some padding */
+}
+
+/* Link styles */
+.link {
+    color: #2980b9; /* Blue color for links */
+    text-decoration: none;
+    font-weight: bold; /* Bold links */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.link:hover {
+    color: #e74c3c; /* Change text color on hover */
+    text-decoration: underline; /* Underline on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Card styles */
+.card {
+    background-color: #ffffff; /* White card background */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    margin: 20px auto; /* Centered margin */
+    max-width: 300px; /* Max width for card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Deeper shadow */
+    transition: transform 0.3s ease; /* Smooth transform transition */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+/* Card title styles */
+.card h2 {
+    font-size: 1.75em; /* Card title size */
+    color: #2c3e50; /* Dark blue for titles */
+    text-align: center; /* Center-align title */
+    margin-bottom: 10px; /* Space below title */
+}
+
+/* Card paragraph styles */
+.card p {
+    text-align: left; /* Left-align description */
+    color: #555; /* Gray for description */
+    line-height: 1.6; /* Better line spacing */
+}
+
+/* Additional styling for sections */
+.highlight {
+    background-color: #d1ecf1; /* Light cyan background */
+    padding: 15px; /* More padding */
+    border-radius: 5px; /* Rounded corners */
+    margin: 15px 0; /* Vertical margin */
+}
+
+#unique {
+    border: 2px solid #007bff; /* Blue border */
+    background-color: #f9f9f9; /* Light background */
+    padding: 15px; /* More padding */
+    margin-top: 20px;
+}
+
+h1 {
+    color: #34495e; /* Darker blue for headings */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
