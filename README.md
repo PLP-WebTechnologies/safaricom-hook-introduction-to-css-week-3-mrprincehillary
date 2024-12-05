@@ -43,7 +43,9 @@
    - A heading for the card title.  
    - A paragraph with some description.  
    - Add padding inside the card and a margin around it.  
-   - Use a light background color and a subtle border.  
+   - Use a light background color and a subtle border.
+   - 
+![image](https://github.com/user-attachments/assets/91f7ae4a-4448-4579-8d47-ca43b00e7130)
 
 ```
 
