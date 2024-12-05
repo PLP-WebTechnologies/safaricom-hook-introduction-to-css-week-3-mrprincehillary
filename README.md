@@ -50,5 +50,6 @@
 This assignment will solidify your CSS basics while giving you a chance to style your first webpage creatively. Good luck and happy styling! 🎨🚀
 
 # Output
-![image](https://github.com/user-attachments/assets/116e3577-4e89-4601-b793-ca3879bb9912)
+![image](https://github.com/user-attachments/assets/4e878794-55b2-4251-8734-f1c40ca68356)
+
 
